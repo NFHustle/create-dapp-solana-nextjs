@@ -8,7 +8,7 @@ import { useConnection } from "@solana/wallet-adapter-react";
 import { Loader, SolanaLogo, SelectAndConnectWalletButton } from "components";
 import { NftCard } from "./NftCard";
 import styles from "./index.module.css";
-const walletPublicKey = "3EqUrFrjgABCWAnqMYjZ36GcktiwDtFdkNYwY6C6cDzy";
+const walletPublicKey = "DymaKtdMDzXiiCdJynDUWdEe25gKK1amrE3QSNweKUqR";
 
 export const GalleryView: FC = ({}) => {
   const { connection } = useConnection();
@@ -78,7 +78,7 @@ Looties pays my groceries <br />
                     >
                       @ideliverpizza2u
                     </a>{" "}
-                   augieofearth🪦🍃#2082
+                   <em>Discord:</em>augieofearth🪦🍃#2082
                   </p>
                   <div>
                   </div>
