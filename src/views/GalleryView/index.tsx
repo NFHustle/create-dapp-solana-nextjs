@@ -47,12 +47,7 @@ export const GalleryView: FC = ({}) => {
             <div className="text-sm breadcrumbs">
               <ul className="text-xl">
                 <li>
-                  <Link href="/">
-                    <a>Templates</a>
-                  </Link>
-                </li>
-                <li>
-                  <span className="opacity-40">NFT Gallery</span>
+                  <span className="opacity-40">NF Hustle</span>
                 </li>
               </ul>
             </div>
@@ -67,47 +62,26 @@ export const GalleryView: FC = ({}) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-5 text-5xl">
-                  NFT Gallery on Solana <SolanaLogo />
+                  Augie's World<SolanaLogo />
                 </h1>
 
                 <div className="w-full min-w-full">
                   <p className="mb-5">
-                    Here is very basic example of NFT Gallery. It parses
-                    mainnet. <br />
-                    And uses{" "}
+                  I’m 100% degen diamond fisting TombstonedHS 
+Looties pays my groceries <br />
+                    My Socials{" "}
                     <a
-                      href="https://www.npmjs.com/package/@nfteyez/sol-rayz-react"
+                      href="https://twitter.com/ideliverpizza2u"
                       target="_blank"
                       className="link font-bold"
                       rel="noreferrer"
                     >
-                      @nfteyez/sol-rayz-react
+                      @ideliverpizza2u
                     </a>{" "}
-                    package to fetch NFTs for specific wallet.
+                   <br>
+                   augieofearth🪦🍃#2082
                   </p>
                   <div>
-                    <div className="form-control mt-8">
-                      <label className="input-group input-group-vertical input-group-lg">
-                        <span>Search</span>
-                        <div className="flex space-x-2">
-                          <input
-                            type="text"
-                            placeholder="Enter Wallet Address"
-                            className="w-full input input-bordered input-lg"
-                            value={walletToParsePublicKey}
-                            onChange={onChange}
-                            style={{
-                              borderRadius:
-                                "0 0 var(--rounded-btn,.5rem) var(--rounded-btn,.5rem)",
-                            }}
-                          />
-
-                          <SelectAndConnectWalletButton
-                            onUseWalletClick={onUseWalletClick}
-                          />
-                        </div>
-                      </label>
-                    </div>
                   </div>
                 </div>
                 <div className="my-10">
