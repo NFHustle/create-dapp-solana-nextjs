@@ -86,7 +86,7 @@ Looties pays my groceries <br />
                 <div className="my-10">
                   {error ? (
                     <div>
-                      <h1>Error Occures</h1>
+                      <h1>Error Occured</h1>
                       {(error as any)?.message}
                     </div>
                   ) : null}
