@@ -28,7 +28,7 @@ module.exports = {
     styled: true,
     themes: [
       // first one will be the default theme
-      "dark",
+      "retro",
       // uncomment to enable
       // "light (default)",
       // "dark",
