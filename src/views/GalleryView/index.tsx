@@ -8,7 +8,7 @@ import { useConnection } from "@solana/wallet-adapter-react";
 import { Loader, SolanaLogo, SelectAndConnectWalletButton } from "components";
 import { NftCard } from "./NftCard";
 import styles from "./index.module.css";
-const walletPublicKey = "DymaKtdMDzXiiCdJynDUWdEe25gKK1amrE3QSNweKUqR";
+const walletPublicKey = "7Ppgch9d4XRAygVNJP4bDkc7V6htYXGfghX4zzG9r4cH";
 
 export const GalleryView: FC = ({}) => {
   const { connection } = useConnection();
@@ -39,9 +39,6 @@ export const GalleryView: FC = ({}) => {
       <div className={styles.container}>
         <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
           <div className="flex-none">
-            <button className="btn btn-square btn-ghost">
-              <span className="text-4xl">🏞</span>
-            </button>
           </div>
           <div className="flex-1 px-2 mx-2">
             <div className="text-sm breadcrumbs">
@@ -62,23 +59,30 @@ export const GalleryView: FC = ({}) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-5 text-5xl">
-                  Augie's World<SolanaLogo />
+                  MonkeDAO<SolanaLogo />
                 </h1>
 
                 <div className="w-full min-w-full">
                   <p className="mb-5">
-                  I’m 100% degen diamond fisting TombstonedHS 
-Looties pays my groceries <br />
-                    My Socials{" "}
-                    <a
-                      href="https://twitter.com/ideliverpizza2u"
+                  Home of Monke. Solana's first community-owned and operated NFT DAO. Exclusive to 
+                  <a
+                      href="https://twitter.com/SolanaMBS"
                       target="_blank"
                       className="link font-bold"
                       rel="noreferrer"
                     >
-                      @ideliverpizza2u
+                    @SolanaMBS
                     </a>{" "}
-                   <em>Discord:</em>augieofearth🪦🍃#2082
+                    owners. 🐵❤️🍌  ↓ Join us today ↓  http://linktr.ee/monkedao<br />
+                    Twitter{" "}
+                    <a
+                      href="https://twitter.com/MonkeDAO"
+                      target="_blank"
+                      className="link font-bold"
+                      rel="noreferrer"
+                    >
+                      @MonkeDAO
+                    </a>{" "}
                   </p>
                   <div>
                   </div>

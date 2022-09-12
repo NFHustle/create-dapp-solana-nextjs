@@ -9,7 +9,7 @@ const Home: NextPage = (props) => {
         <title>NF Hustle</title>
         <meta
           name="description"
-          content="This site will fly high 🦤"
+          content="NFHustle Private Profiles"
         />
       </Head>
       <GalleryView />
